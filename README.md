@@ -1,7 +1,7 @@
 # kamlesh-yadav
 
 ///////////////////////Monify Test Automation ////////////////////////////////////////
-Test Automation Framework:-
+TestMonefyAppPyd Test Automation Framework:-
 Setup:-
 a)	Maven
 b)	Testng
@@ -24,6 +24,8 @@ Data Driven Test:- Test data is maintained under resource package(‘testData.Pr
 Test Iteration :- used @dataprovider to get the list of data ([‘expenseList’]) to be consumed  in the same test. It’s maintained under resource file.
 
 Configuration File :- to fetch data related to configuration of device.
+
+RetryAnalyser :- added retry analyser to execute test again if encountered failure
 
 Modular Approach:- added modular/small methods which can be used over and over again in the tests
 
