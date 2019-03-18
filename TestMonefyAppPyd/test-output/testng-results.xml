@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="146618" started-at="2019-03-18T10:56:35Z" finished-at="2019-03-18T10:59:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="146618" started-at="2019-03-18T10:56:35Z" finished-at="2019-03-18T10:59:02Z">
+      <class name="com.monefy.tests.ExpenseTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2019-03-18T16:26:35Z" finished-at="2019-03-18T16:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="beforeMethod" is-config="true" duration-ms="20846" started-at="2019-03-18T16:26:35Z" finished-at="2019-03-18T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="addExpenseDetailsAndVerifyIncomeLessthanExpense" duration-ms="10912" started-at="2019-03-18T16:26:56Z" data-provider="local" finished-at="2019-03-18T16:27:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bills]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseDetailsAndVerifyIncomeLessthanExpense -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-03-18T16:27:07Z" finished-at="2019-03-18T16:27:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpenseDetailsAndVerifyIncomeLessthanExpense status=SUCCESS method=ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a50482c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="addExpenseDetailsAndVerifyIncomeLessthanExpense" duration-ms="8788" started-at="2019-03-18T16:27:07Z" data-provider="local" finished-at="2019-03-18T16:27:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Car]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseDetailsAndVerifyIncomeLessthanExpense -->
+        <test-method status="PASS" signature="addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="addExpenseDetailsAndVerifyIncomeLessthanExpense" duration-ms="9969" started-at="2019-03-18T16:27:16Z" data-provider="local" finished-at="2019-03-18T16:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Clothes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseDetailsAndVerifyIncomeLessthanExpense -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-18T16:27:16Z" finished-at="2019-03-18T16:27:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpenseDetailsAndVerifyIncomeLessthanExpense status=SUCCESS method=ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a50482c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-03-18T16:27:26Z" finished-at="2019-03-18T16:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpenseDetailsAndVerifyIncomeLessthanExpense status=SUCCESS method=ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a50482c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="addExpenseDetailsAndVerifyIncomeLessthanExpense" duration-ms="9911" started-at="2019-03-18T16:27:26Z" data-provider="local" finished-at="2019-03-18T16:27:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Communications]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseDetailsAndVerifyIncomeLessthanExpense -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-18T16:27:36Z" finished-at="2019-03-18T16:27:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpenseDetailsAndVerifyIncomeLessthanExpense status=SUCCESS method=ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a50482c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="addExpenseDetailsAndVerifyIncomeLessthanExpense" duration-ms="12950" started-at="2019-03-18T16:27:36Z" data-provider="local" finished-at="2019-03-18T16:27:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Entertainment]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'HH8LG22', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.monefy.activities.main...., appPackage: com.monefy.app.lite, databaseEnabled: false, desired: {appActivity: com.monefy.activities.main...., appPackage: com.monefy.app.lite, deviceName: WSZPEYCEN7USM7TS, newCommandTimeout: 360000, platformName: android, platformVersion: 6.0, resetKeyboard: true, unicodeKeyboard: true}, deviceManufacturer: vivo, deviceModel: vivo 1601, deviceName: WSZPEYCEN7USM7TS, deviceScreenSize: 720x1280, deviceUDID: WSZPEYCEN7USM7TS, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 360000, platform: LINUX, platformName: Android, platformVersion: 6.0, resetKeyboard: true, takesScreenshot: true, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 9b0993e9-efca-4aef-9e64-3545bf015c16
+*** Element info: {Using=id, value=com.monefy.app.lite:id/textViewChooseCategory}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'HH8LG22', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.monefy.activities.main...., appPackage: com.monefy.app.lite, databaseEnabled: false, desired: {appActivity: com.monefy.activities.main...., appPackage: com.monefy.app.lite, deviceName: WSZPEYCEN7USM7TS, newCommandTimeout: 360000, platformName: android, platformVersion: 6.0, resetKeyboard: true, unicodeKeyboard: true}, deviceManufacturer: vivo, deviceModel: vivo 1601, deviceName: WSZPEYCEN7USM7TS, deviceScreenSize: 720x1280, deviceUDID: WSZPEYCEN7USM7TS, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 360000, platform: LINUX, platformName: Android, platformVersion: 6.0, resetKeyboard: true, takesScreenshot: true, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 9b0993e9-efca-4aef-9e64-3545bf015c16
+*** Element info: {Using=id, value=com.monefy.app.lite:id/textViewChooseCategory}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.monefy.tests.ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(ExpenseTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseDetailsAndVerifyIncomeLessthanExpense -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-18T16:27:49Z" finished-at="2019-03-18T16:27:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpenseDetailsAndVerifyIncomeLessthanExpense status=SKIP method=ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a50482c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="addExpenseDetailsAndVerifyIncomeLessthanExpense" duration-ms="8979" started-at="2019-03-18T16:27:49Z" data-provider="local" finished-at="2019-03-18T16:27:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Entertainment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseDetailsAndVerifyIncomeLessthanExpense -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-18T16:27:58Z" finished-at="2019-03-18T16:27:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpenseDetailsAndVerifyIncomeLessthanExpense status=SUCCESS method=ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a50482c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="addExpenseDetailsAndVerifyIncomeLessthanExpense" duration-ms="9598" started-at="2019-03-18T16:27:58Z" data-provider="local" finished-at="2019-03-18T16:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Food]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseDetailsAndVerifyIncomeLessthanExpense -->
+        <test-method status="PASS" signature="addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="addExpenseDetailsAndVerifyIncomeLessthanExpense" duration-ms="9821" started-at="2019-03-18T16:28:07Z" data-provider="local" finished-at="2019-03-18T16:28:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gifts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseDetailsAndVerifyIncomeLessthanExpense -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-18T16:28:07Z" finished-at="2019-03-18T16:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpenseDetailsAndVerifyIncomeLessthanExpense status=SUCCESS method=ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a50482c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-18T16:28:17Z" finished-at="2019-03-18T16:28:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpenseDetailsAndVerifyIncomeLessthanExpense status=SUCCESS method=ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a50482c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="addExpenseDetailsAndVerifyIncomeLessthanExpense" duration-ms="9788" started-at="2019-03-18T16:28:17Z" data-provider="local" finished-at="2019-03-18T16:28:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Health]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseDetailsAndVerifyIncomeLessthanExpense -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-18T16:28:27Z" finished-at="2019-03-18T16:28:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpenseDetailsAndVerifyIncomeLessthanExpense status=SUCCESS method=ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a50482c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="addExpenseDetailsAndVerifyIncomeLessthanExpense" duration-ms="9355" started-at="2019-03-18T16:28:27Z" data-provider="local" finished-at="2019-03-18T16:28:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[House]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseDetailsAndVerifyIncomeLessthanExpense -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-03-18T16:28:36Z" finished-at="2019-03-18T16:28:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpenseDetailsAndVerifyIncomeLessthanExpense status=SUCCESS method=ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a50482c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="addExpenseDetailsAndVerifyIncomeLessthanExpense" duration-ms="9905" started-at="2019-03-18T16:28:36Z" data-provider="local" finished-at="2019-03-18T16:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseDetailsAndVerifyIncomeLessthanExpense -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterMethod" is-config="true" duration-ms="8" started-at="2019-03-18T16:28:46Z" finished-at="2019-03-18T16:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpenseDetailsAndVerifyIncomeLessthanExpense status=SUCCESS method=ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a50482c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="addExpenseDetailsAndVerifyIncomeLessthanExpense" duration-ms="9401" started-at="2019-03-18T16:28:46Z" data-provider="local" finished-at="2019-03-18T16:28:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sports]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpenseDetailsAndVerifyIncomeLessthanExpense -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-18T16:28:56Z" finished-at="2019-03-18T16:28:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpenseDetailsAndVerifyIncomeLessthanExpense status=SUCCESS method=ExpenseTest.addExpenseDetailsAndVerifyIncomeLessthanExpense(java.lang.String)[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a50482c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterClass" is-config="true" duration-ms="6274" started-at="2019-03-18T16:28:56Z" finished-at="2019-03-18T16:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.monefy.tests.ExpenseTest@50b494a6]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-03-18T16:29:02Z" finished-at="2019-03-18T16:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.monefy.tests.ExpenseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
