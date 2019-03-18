@@ -31,8 +31,8 @@ Modular Approach:- added modular/small methods which can be used over and over a
 
 Testng Assertion :- validate checkpoints in tests.
 
-//////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////Best Buy Api Test Automation ////////////////////////////////////////
+///////////////////////Best Buy Api Test Automation Details////////////////////////////////////////
+
 Created Best buy api test in‘TestMonefyAppPyd’ framework under a seprate package ‘com.bestbuy.api.test’
 
 The package has following classes :-
